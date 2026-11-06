@@ -23,7 +23,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q Sumer-Manhwa-Android-Stage3.zip -d extracted
+          unzip -q Sumer-Manhwa-Stage5-Integrated.zip -d extracted
           test -f extracted/ROSHAR-Android/settings.gradle.kts
 
       - name: Set up Android SDK
